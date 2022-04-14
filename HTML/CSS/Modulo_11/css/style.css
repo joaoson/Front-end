@@ -1,0 +1,33 @@
+html{
+    font-size: 62.5%;
+}
+
+img{
+    width: 120px;
+    padding-left: 100px;
+}
+
+header{
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li{
+    display: inline-block;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+ul{
+    margin-right: 100px;
+}
+
+section{
+    width: 80%;
+    margin: 0 auto;
+}
