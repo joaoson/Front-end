@@ -1,0 +1,46 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    width: 100%;
+    text-align: center;
+}
+
+img{
+    width: 10%;
+    padding-top: 20px;
+}
+
+input{
+    display: block;
+    margin-bottom: 20px;
+    width: 300px;
+    text-align: center;
+    height: 25px;
+    border-radius: 50px;
+    border-width: 2px;
+}
+
+.form1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+    border-width: 5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form1 h2{
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
