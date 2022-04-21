@@ -19,15 +19,19 @@
     </header>
     <main>
         <div class="form1">
-            <form action="">
+            <form action="" method="post" id="formula" autocomplete="off">
                 <h2>Adicione 4 notas e calcule a media</h2>
-                <input placeholder="Digite a primeira nota" type="text">
-                <input placeholder="Digite a segunda nota" type="text">
-                <input placeholder="Digite a terceira nota" type="text">
-                <input placeholder="Digite a quarta nota" type="text">
-                <button type="submit"> Enviar </button>
+                <input required name="a" placeholder="Digite a primeira nota" type="number" min="0" max="10"     >
+                <input required name="b" placeholder="Digite a segunda nota" type="number"  min="0" max="10"     >  
+                <input required name="c" placeholder="Digite a terceira nota" type="number" min="0" max="10"     >
+                <input required name="d" placeholder="Digite a quarta nota" type="number"   min="0" max="10"     >
+                  <button type="submit"> Enviar </button>
             </form>
         </div>
+        <div id="resultado"></div>
     </main>
+
+    <script src="./assests/js/form.js"></script>
+
 </body>
 </html>
