@@ -6,10 +6,9 @@ function condicao( notas ){
 
     let answer = media>7 ? "legal" : "meme";
 
-    return answer;
+    return answer + media;
 
 }
-
 
 document.getElementById('formulario1').addEventListener('submit', function( evento ){
 
@@ -17,19 +16,18 @@ document.getElementById('formulario1').addEventListener('submit', function( even
 
     let dados = new FormData(this);
 
-    let objeto = {};
-
-    let notas = 0; 
+    let notas = []; 
 
     for(key of dados.keys()){
-        objeto[key]= dados.get(key);
 
-        notas += parseInt(dados.get(key));
+        let numero = dados.get(key).match(/\d/) ? Number(dados.get(key)) : 0;
+
+        if(!isNaN(numero)){
+           notas.push(numero); 
+        }  
     }
 
     console.log(notas);
-
-    console.log(objeto);
 
     texto = condicao(notas);
 

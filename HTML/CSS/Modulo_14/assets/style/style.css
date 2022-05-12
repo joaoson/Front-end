@@ -11,10 +11,11 @@ header img{
 .container{
     text-align: center;
     justify-content: center;
-    display: block;
+    display: flex;
 }
 
 .container input{
+    display: block;
     border: none;
     padding: 20px;
     margin: 30px;
