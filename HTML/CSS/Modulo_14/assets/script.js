@@ -2,9 +2,15 @@ let answer;
 
 function condicao( notas ){
 
-    let media = notas/4;
+    let media = 0;
 
-    let answer = media>7 ? "legal" : "meme";
+    for (let i = 0; i < notas.length; i++) {
+        media += notas[i];
+    }
+
+    media = media/4;
+
+    let answer = media>=7 ? "legal" : "meme";
 
     return answer + media;
 
