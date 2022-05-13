@@ -15,6 +15,7 @@ document.getElementById('formulario1').addEventListener('submit', function( even
     }
 
     console.log(notas);
+    document.getElementById('resultado').innerHTML = "Formulario enviado";
 });
 
 function camponumerico(elemento){
