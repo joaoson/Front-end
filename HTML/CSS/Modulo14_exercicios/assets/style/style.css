@@ -44,5 +44,10 @@ header img{
 }
 
 .error{
-    border: red 5px solid;
+    border: red 5px solid
+}
+
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
 }
