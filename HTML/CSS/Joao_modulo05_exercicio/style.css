@@ -7,10 +7,6 @@ width: 100%;
 margin: 0;
 }
 
-html{
-	font-size: 62,5%;
-}
-
 header { 
 	background-color: #bcbcbc;
 	font-family: Trebuchet MS;
@@ -146,3 +142,7 @@ label{
 	color: #5454a8;
 	font-weight: bold;
 }
+
+#conteudo { font-size: 11px; }
+
+#conteudo span { font-size: 2em; }
